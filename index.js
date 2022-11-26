@@ -1,10 +1,10 @@
-// Reqireds
+// Requireds
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 
-const api = require('./utils/api.js');
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const api = require('./util/api.js');
+const generateMarkdown = require('./util/generateMarkdown');
 
 // Prompts for userResponses
 const questions = [
